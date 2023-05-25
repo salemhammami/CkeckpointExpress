@@ -1,0 +1,115 @@
+*{
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {display: flex;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #111;
+    justify-content:flex-end
+  }
+  
+  li {
+    font-weight: 300;
+      }
+  
+  li a {
+    display: flex;
+    flex-wrap: nowrap;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #333;
+
+    
+        }
+
+
+        .home-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/2631613/pexels-photo-2631613.jpeg');
+           height: 700px;
+           background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+          
+        }
+
+          .home-text{
+            text-transform: uppercase;            
+            letter-spacing: 10px;
+            text-align: center;
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+          }
+
+          .home-par{
+            color: white;
+        
+          }
+
+          p{
+            font-weight: 300;
+            text-align: center;
+            position: absolute;
+            top: 45%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: white;
+          }
+
+          button {
+            display: inline-block;
+            padding: 5px 15px;
+            text-align: center;
+            cursor: pointer;
+            position: absolute;
+            top: 55%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color:rgb(255, 255, 255);
+            color : rgb(0, 0, 0);
+            margin:20px;
+            padding: 10px 30px 10px 30px;
+            border-radius: 30px;
+            border:none;
+            font-size: 15px;
+            }
+      button:hover {
+        background-color: #e5e5e5;
+        }
+
+
+
+        .services-image{
+
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg');
+           height: 700px;
+           background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+
+        .contact-image{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.pexels.com/photos/3225517/pexels-photo-3225517.jpeg');
+            height: 700px;
+            background-position: center;
+             background-repeat: no-repeat;
+             background-size: cover;
+             position: relative;
+            
+        }
